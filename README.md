@@ -12,7 +12,6 @@ The system allows an admin to:
 * Mark and update daily attendance (Present / Absent)
 * View attendance records
 * Filter attendance by date
-* View total present days per employee
 
 The project is intentionally kept minimal to demonstrate **end-to-end full-stack development skills** including frontend, backend, database design, validation, error handling, and deployment.
 
@@ -23,7 +22,6 @@ The project is intentionally kept minimal to demonstrate **end-to-end full-stack
 ### Frontend
 
 * **React (Vite)**
-* **JavaScript / TypeScript**
 * **Tailwind CSS**
 * **Axios**
 * **React Router**
@@ -154,9 +152,6 @@ http://localhost:5173
 ---
 
 ##  Assumptions & Limitations
-
-* Single admin user (no authentication or authorization)
-* No role-based access control
 * No payroll, leave management, or reporting features
 * Attendance history is not versioned (only latest status per date)
 * Deleting an employee does not automatically delete attendance records
@@ -166,9 +161,9 @@ http://localhost:5173
 
 ##  Live Deployment
 
-* **Frontend URL**: `<Vercel URL>`
-* **Backend API URL**: `<Render URL>`
-* **Swagger Docs**: `<Render URL>/docs`
+* **Frontend URL**: `https://github.com/kanishk466/hrms_backend`
+* **Backend API URL**: `https://hrms-backend-n8nc.onrender.com/`
+* **Swagger Docs**: `https://hrms-backend-n8nc.onrender.com/docs`
 
 
 
